@@ -103,8 +103,8 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     tinymix
 
-# Torch
-PRODUCT_PACKAGES += Torch
+# OmniTorch
+PRODUCT_PACKAGES += OmniTorch
 
 # Wifi
 PRODUCT_PACKAGES += \
