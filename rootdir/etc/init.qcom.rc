@@ -441,6 +441,11 @@ service ftmd /system/bin/logwrapper /system/bin/ftmdaemon
     disabled
     oneshot
 
+service logcat /system/bin/logcat > /data/media/logcat.txt
+    class main
+    user root
+    oneshot
+
 service bridgemgrd /system/bin/bridgemgrd
     class late_start
     user radio
